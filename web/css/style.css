@@ -956,6 +956,8 @@ h3.heading-tittle {
 }
 
 .item-info-product h4 a {
+    width: 100px;
+    height: 200px;
     color: #000;
     font-size: 17px;
     letter-spacing: 1px;
@@ -2186,6 +2188,27 @@ div#testimonials h4.m-title {
 	display: inherit;
 }
 
+
+.samsung{
+    width: 200px;
+    height: 400px;
+}
+.asus{
+    width: 200px;
+    height: 400px;
+}
+#asus1{
+    width: 200px;
+    height: 400px; 
+}
+.pixel{
+    width: 200px;
+    height: 400px;
+}
+#pixel1{
+    width: 200px;
+    height: 400px;
+}
 /*-- placeholder-color 
 
 ::-webkit-input-placeholder {
@@ -3171,6 +3194,15 @@ div#testimonials h4.m-title {
     .occasion-cart .snipcart-details {
         width: 45%;
     }
+}
+
+
+@media screen and (max-width:600px){
+    #asus1,.asus,.pixel,#pixel1,.samsung{
+        width: 100%;
+        height: auto;
+    }
+    
 }
 
 /*--//responsive--*/
